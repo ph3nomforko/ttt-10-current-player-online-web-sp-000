@@ -4,6 +4,7 @@ def turn_count(board)
     turncounter == "X" || turncounter == "O"
       counter += 1
   end
+  return counter
 end
 
 def current_player(board)
