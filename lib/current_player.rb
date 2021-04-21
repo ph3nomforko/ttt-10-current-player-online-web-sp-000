@@ -1,8 +1,9 @@
 def turn_count(board)
   counter = 0
   board.each do |turncounter|
-    turncounter == "X" || turncounter == "O"
+    if turncounter == "X" || turncounter == "O"
       counter += 1
+    end
   end
   return counter
 end
